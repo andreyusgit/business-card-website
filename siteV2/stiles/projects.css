@@ -1,0 +1,106 @@
+.myProjects {
+    padding-top: 10%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .Ptitile{
+    width: 100%;
+    border-radius: 5vw;
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+  }
+
+  .bio{
+    padding-top: 3%;
+    width: 100%;
+    height: auto;
+  }
+
+  .blocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .block{
+    width: 33%;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .blocktext{
+    position: relative;
+    text-align: center;
+    top: 5vw;
+  }
+
+  .miniblock1{
+    display: block;
+    width: 70%;
+    height: 12vw;
+    margin: 17% auto;
+    background-color: rgb(40, 40, 40);
+    border: 6px solid #E2A200;
+    filter: drop-shadow(0px 0px 40px rgba(226, 162, 0, 0.30));
+    border-radius: 25px;
+
+  }
+
+  .miniblock1:hover{
+    background-color: rgba(226, 162, 0, 0.25);
+  }
+
+  .miniblock2{
+    display: block;
+    width: 70%;
+    height: 12vw;
+    margin: 17% auto;
+    background-color: rgb(40, 40, 40);
+    border: 6px solid #00C4F0;
+    filter: drop-shadow(0px 0px 40px rgba(0, 193, 236, 0.25));
+    border-radius: 25px;
+  }
+
+  .miniblock2:hover{
+    background-color: rgba(0, 193, 236, 0.25);
+  }
+
+  .miniblock3{
+    display: block;
+    width: 70%;
+    height: 12vw;
+    margin: 17% auto;
+    background-color: rgb(40, 40, 40);
+    border: 6px solid #FFFFFF;
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.30));
+    border-radius: 25px;
+  }
+
+  .miniblock3:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .miniblock4{
+    display: block;
+    width: 70%;
+    height: 12vw;
+    margin: 17% auto;
+    background-color: rgb(40, 40, 40);
+    border: 6px solid #00f008;
+    filter: drop-shadow(0px 0px 40px rgba(0, 240, 8, 0.30));
+    border-radius: 25px;
+  }
+
+  .miniblock4:hover{
+    background-color: rgba(0, 240, 8, 0.25);
+  }

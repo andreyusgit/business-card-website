@@ -1,0 +1,15 @@
+.contacts{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.Fblock{
+    width: 33%;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .pad{
+    padding-left: 5%;
+  }

@@ -1,0 +1,75 @@
+.myshortinfo {
+    padding-top: 5%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .piceOfInfo{
+    display: flex;
+    flex: 120px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+
+ .hello {
+    text-align: left;
+    flex: 120px;
+    padding: 3%;
+    padding-left: 15%;
+    color: #FFFFFF
+ }
+
+ .figure{
+    position: absolute;
+    border: 1.8vw solid #E2A200;
+    filter: drop-shadow(0px 0px 10px rgba(226, 162, 00, 0.30));
+    border-radius: 50%;
+    top: 3vh;
+    left: 7vw;
+    z-index: 1;
+ }
+
+ .textAtom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
+
+ .figure2{
+    position: absolute;
+    border: 1.8vw solid #E2A200;
+    filter: drop-shadow(0px 0px 10px rgba(226, 162, 00, 0.30));
+    border-radius: 50%;
+    left: 2vw;
+    z-index: 1;
+ }
+
+ .figure3{
+    position: absolute;
+    border: 1.8vw solid #E2A200;
+    filter: drop-shadow(0px 0px 10px rgba(226, 162, 00, 0.30));
+    border-radius: 50%;
+    left: 7vw;
+    bottom: 3vh;
+    z-index: 1;
+ }
+
+ .picture{
+    padding-left: 5%;
+    text-align: center;
+    width: 100px;
+    max-width: 80%;
+    min-width: 30px;
+    z-index: 0;
+ }
+
+ .hello {
+    flex: 1;
+  }
+  .picture {
+    flex: 1;
+  }
